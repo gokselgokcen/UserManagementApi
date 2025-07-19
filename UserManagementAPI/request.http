@@ -1,0 +1,16 @@
+GET  http://localhost:5189/users/8
+Authorization: Bearer my_secure_key_123
+
+
+
+
+###
+
+POST http://localhost:5189/users
+Authorization: Bearer my_secure_key_123
+Content-Type: application/json
+
+{
+    "username": "ahmad",
+    "userage": 45
+}
